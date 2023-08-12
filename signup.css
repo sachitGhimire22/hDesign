@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: gainsboro;
+    /* scroll-behavior: 1s smooth; */
+  }
+  body{
+  
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+          url(/img//loft-living-room-interior-design_53876-145499.avif);
+        height: 83vh;
+        background-size: 100% 100%;
+        /* border-bottom: 2px solid #009688; */
+    
+  }
+  form{
+    /* align-items: center; */
+    margin-top: 3rem;
+  }
+.sign-up-form{
+    width: 500px;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+/* border:2px solid #009688; */
+}
+
+.sign-up-form h1{
+    color: #009688;
+}
+input {
+    width: 20rem;
+    padding: 10px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 10px;
+    color: gainsboro;
+    background-color: transparent;
+    border-right-color: aqua;
+    border-bottom-color: aqua;
+  }
+  input:hover{
+    border: 2px solid #009688;
+
+  }
+  ::placeholder {
+    color: gray;
+  }
+  .logout{
+    width: 10rem;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 2rem;
+    color: black;
+    background-color: gainsboro;  }
+  .logout:hover{
+    background-color: gainsboro;
+    transition:0.2s ease-in-out ;
+    border: 2px solid #009688;
+  }
+  /* h2{
+    color: gainsboro;
+  } */
+  .login{
+    width: 20rem;
+    padding: 0.5rem 1rem;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 2rem;
+    color: black;
+    background-color: gainsboro;
+
+    display: flex;
+    /* border: 2px solid pink; */
+    /* width: 100%; */
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    justify-content: center;
+    gap: 0.5rem;
+    cursor: pointer;
+  }
+  .login:hover{
+    /* color: gainsboro; */
+    background-color: gainsboro;
+    transition:0.3s ease-in-out ;
+    border: 2px solid #009688;
+  }
+  form h5:hover{
+    color: #009688;
+    cursor: pointer;
+  }
+  form h2{
+    color: #009688;
+  }
